@@ -16,7 +16,7 @@ export const sendEmail = async({email, emailType, userId}:any) => {
         }
 
         //nodemailer - Gmail SMTP
-        var transport = nodemailer.createTransport({
+        const transport = nodemailer.createTransport({
             service: 'gmail',
             auth: {
               user: process.env.GMAIL_USER,   

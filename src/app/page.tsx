@@ -13,7 +13,7 @@ export default function Home() {
       try {
         await axios.get("/api/users/getviatoken");
         setIsLoggedIn(true);
-      } catch (error) {
+      } catch {
         setIsLoggedIn(false);
       } finally {
         setLoading(false);

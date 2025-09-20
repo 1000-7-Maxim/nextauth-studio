@@ -4,12 +4,12 @@ import { useRouter } from "next/navigation";
 import { toast } from "react-hot-toast";
 import axios from "axios";
 
-export default function profile() {
+export default function Profile() {
   const router = useRouter();
 
   const handleLogout = async () =>{
       try {
-          const response = await axios.get("/api/users/logout");
+          await axios.get("/api/users/logout");
           toast.success("Logout successfully");
           router.push("/");
       } catch (error:any) {
