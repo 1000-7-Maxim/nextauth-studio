@@ -19,6 +19,11 @@ export async function POST(request:NextRequest){
             return NextResponse.json({error:"User not found. Please sign up."},{status:404});
         }
 
+        // check if email is verified
+        if(!user.isVerified){
+            return NextResponse.json({error:"Please verify your email before logging in. Check your inbox for verification link."},{status:400});
+        }
+
         // check if password matches
         const isMatch=await bcryptjs.compare(password,user.password);
         if(!isMatch){

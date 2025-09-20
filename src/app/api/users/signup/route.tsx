@@ -11,6 +11,19 @@ export async function POST(request:NextRequest){
         const reqBody= await request.json();
         const {username,email,password}=reqBody;
 
+        //check if user already exist 
+        const existingUser = await User.findOne({
+            $or: [{email}, {username}]
+        });
+        if(existingUser){
+            if(existingUser.email === email) {
+                return NextResponse.json({error:"Email already exists."},{status:400});
+            }
+            if(existingUser.username === username) {
+                return NextResponse.json({error:"Username already exists."},{status:400});
+            }
+        }
+
         //hash password
         const salt=await bcryptjs.genSalt(10);
         const hashedPassword=await bcryptjs.hash(password,salt);
@@ -33,7 +46,7 @@ export async function POST(request:NextRequest){
         await sendEmail({email, emailType: "VERIFY", userId: savedUser._id});
 
         return NextResponse.json({
-            message: "User created successfully",
+            message: "Account created successfully! Please check your email for verification link.",
             success: true,
             savedUser
         })
