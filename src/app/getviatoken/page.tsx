@@ -80,6 +80,13 @@ export default function GetViaTokenPage() {
                         </div>
                     </div>
                 )}
+
+            </div>
+
+            <div className="text-center mt-12">
+            <a href="/profile" className="text-gray-600 hover:text-gray-800 font-medium">
+                ← Back to Profile 
+            </a>
             </div>
         </div>
     );

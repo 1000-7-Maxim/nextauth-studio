@@ -36,13 +36,14 @@ src/
 │   │   ├── login/          # User login
 │   │   ├── logout/         # User logout
 │   │   └── getviatoken/    # Get user by token
-│   ├── dbConfig/           # Database configuration
-│   ├── helpers/            # Utility functions
-│   ├── models/             # MongoDB schemas
 │   ├── login/              # Login page
 │   ├── signup/             # Signup page
 │   ├── profile/            # Profile pages
 │   └── getviatoken/        # Token-based user info
+├── dbConfig/               # Database configuration
+├── helpers/                # Utility functions
+├── models/                 # MongoDB schemas
+└── middleware.ts           # Route protection middleware
 ```
 
 ## 🛠️ Installation

@@ -11,7 +11,7 @@ export default function profile() {
       try {
           const response = await axios.get("/api/users/logout");
           toast.success("Logout successfully");
-          router.push("/login");
+          router.push("/");
       } catch (error:any) {
         return toast.error("Logout failed. Please try again." + error.message);
       }
@@ -57,8 +57,8 @@ export default function profile() {
         </div>
         
         <div className="text-center mt-12">
-          <a href="/login" className="text-gray-600 hover:text-gray-800 font-medium">
-            ← Back to Login
+          <a href="/" className="text-gray-600 hover:text-gray-800 font-medium">
+            ← Back to Home
           </a>
         </div>
       </div>
